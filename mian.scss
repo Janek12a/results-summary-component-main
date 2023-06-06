@@ -148,6 +148,12 @@ body {
 			background-color: hsl(224, 30%, 27%);
 			border-radius: 30px;
 			border: none;
+			transition: background-color 0.3s;
+
+			&:hover {
+				cursor: pointer;
+				background-color: hsl(241, 81%, 54%);
+			}
 		}
 	}
 }
